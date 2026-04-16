@@ -7,7 +7,7 @@ A server-side Fabric mod for Minecraft that lets players buy decorative player h
 - **Browse & Buy:** Access hundreds of decorative heads organized by category (Mobs, Animals, Food, Blocks, etc.).
 - **HeadDB Integration:** Dynamically fetches thousands of heads from the HeadDB API if enabled.
 - **Custom Player Heads:** Buy any player's head by username with `/buyhead player <username>`.
-- **1.21.x Optimized:** Built for Minecraft 26.1.2 (1.21.2 snapshots) with strict adherence to DataComponent APIs.
+- **Minecraft 26.x Optimized:** Built for Minecraft 26.1.2 with strict adherence to DataComponent APIs.
 - **Enhanced Stability:** Includes full inventory padding and forced synchronization to prevent client-side crashes with mods like JEI/REI.
 - **Unique Variants:** Every head variant (even those with the same name) has a unique UUID to prevent texture caching issues.
 - **Configurable:** Change currency (item & amount), toggle HeadDB, and customize categories.
@@ -22,7 +22,7 @@ A server-side Fabric mod for Minecraft that lets players buy decorative player h
 
 ## Requirements
 
-- Minecraft 26.1.2 (1.21.2 Snapshot)
+- Minecraft 26.1.2
 - [Fabric Loader](https://fabricmc.net/) 0.19.2+
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
@@ -58,4 +58,4 @@ MIT — see [LICENSE](LICENSE).
 ---
 
 > [!CAUTION]
-> This project was built with AI assistance. While rigorously tested for stability in Minecraft 1.21.2, please report any issues found!
+> This project was built with AI assistance. While rigorously tested for stability in Minecraft 26.1.2, please report any issues found!
